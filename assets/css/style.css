@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Saira:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 !important;
+}
+p{margin-bottom: 0 !important;}
+
+.box {
+    /* width: 424px; */
+    height: 567px; 
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.10);
+}
+
+button {
+    background: var(--dash, linear-gradient(44deg, rgba(0, 66, 255, 0.50) 0%, rgba(235, 0, 27, 0.50) 100%));
+}
+
+.dib {
+    width: 159px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #fff;
+    font-family: Saira;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.dib:hover{
+    color: #000;
+}
+.dibs {
+    
+    color: #000;
+    font-family: Saira;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.one {
+    font-size: 40px;
+}
