@@ -4,11 +4,14 @@
     padding: 0;
     margin: 0 !important;
 }
-p{margin-bottom: 0 !important;}
+
+p {
+    margin-bottom: 0 !important;
+}
 
 .box {
     /* width: 424px; */
-    height: 567px; 
+    height: 567px;
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
@@ -31,17 +34,37 @@ button {
     font-weight: 600;
     line-height: normal;
 }
-.dib:hover{
+
+.dib:hover {
     color: #000;
 }
+
 .dibs {
-    
+
     color: #000;
     font-family: Saira;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.disable {
+    pointer-events: none;
+    background: gray;
+}
+
+.w{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.re:active {
+    transform: rotate(360deg);
+    transition:  1s ;
 }
 
 .one {
