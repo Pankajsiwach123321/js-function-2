@@ -50,6 +50,7 @@ button {
 }
 
 .disable {
+    cursor: not-allowed;
     pointer-events: none;
     background: gray;
 }
