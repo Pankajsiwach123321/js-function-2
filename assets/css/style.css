@@ -21,6 +21,12 @@ p {
 button {
     background: var(--dash, linear-gradient(44deg, rgba(0, 66, 255, 0.50) 0%, rgba(235, 0, 27, 0.50) 100%));
 }
+/* 
+.border {
+    outline: 4px solid orangered;
+    radius: 50%;
+    animation-name: border;
+} */
 
 .dib {
     width: 159px;
@@ -40,7 +46,6 @@ button {
 }
 
 .dibs {
-
     color: #000;
     font-family: Saira;
     font-size: 50px;
@@ -55,7 +60,7 @@ button {
     background: gray;
 }
 
-.w{
+.w {
     width: 50px;
     position: absolute;
     top: 20px;
@@ -65,7 +70,7 @@ button {
 
 .re:active {
     transform: rotate(360deg);
-    transition:  1s ;
+    transition: 1s;
 }
 
 .one {

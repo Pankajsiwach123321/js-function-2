@@ -15,12 +15,14 @@ subtract.addEventListener("click", function () {
        subtract.classList.add("disable")
     }
     else if (p.innerHTML > 0) {
-        p.innerHTML =      +p.innerHTML-1
+        p.innerHTML =  +p.innerHTML-1
     }
 })
 reset.addEventListener("click", function () {
     p.innerHTML = 0;
     savenumber.innerHTML = 0;
+    save.classList.remove("disable")
+    subtract.classList.remove("disable")
 })
 save.addEventListener("click", function () {
     if (p.innerHTML == 0) {
