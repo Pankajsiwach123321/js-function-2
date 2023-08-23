@@ -53,6 +53,14 @@ button {
     font-weight: 600;
     line-height: normal;
 }
+.dibso {
+    color: gray;
+    font-family: Saira;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 .disable {
     cursor: not-allowed;
