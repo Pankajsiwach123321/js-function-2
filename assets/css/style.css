@@ -63,9 +63,9 @@ button {
 }
 
 .disable {
-    cursor: not-allowed;
-    pointer-events: none;
+    cursor: not-allowed !important;
     background: gray;
+    color: #000;
 }
 
 .w {
